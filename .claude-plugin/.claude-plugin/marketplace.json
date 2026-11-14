@@ -1,0 +1,14 @@
+{
+  "name": "qmsroot",
+  "description": "QMSROOT plugins for quality professionals.",
+  "owner": {
+    "name": "QMSROOT"
+  },
+  "plugins": [
+    {
+      "name": "qmsroot-mock-auditor",
+      "source": "./",
+      "description": "Practise audits by voice or text with an evidence-based mock audit report."
+    }
+  ]
+}
