@@ -16,6 +16,35 @@ Keep these distinct throughout the conversation:
 
 ---
 
+## The CAPA effectiveness trail
+
+When the topic is CAPA effectiveness, the audit is complete only when each element below has been examined, or deliberately left open and recorded as such. These are the elements of the trail, not a question sequence: follow them in whatever order the auditee's answers make natural, and stop early on an element when its material question is answered with evidence.
+
+| Element | Claim to test | Evidence that typically shows it | Material question if open |
+|---|---|---|---|
+| **Problem and extent** | The problem is defined, and its scope (products, lots, sites, suppliers, time period, distributed product) was determined | CAPA record problem statement, nonconformity/complaint records, extent or impact assessment | Do we know how far the problem reached? |
+| **Root cause and supporting evidence** | The investigated cause explains the problem and is supported by data, not just asserted | Investigation record, data, test results, supplier response, analysis outputs | What shows this is the cause rather than a symptom or the first plausible explanation? |
+| **Corrective actions and implementation** | Actions address the cause and were actually carried out | Change records, revised documents, training records, supplier corrective action evidence, validation | Is there a record that the action was implemented, not only planned? |
+| **Predetermined effectiveness criteria** | Success was defined before the check: measure, threshold, sample or period, and who decides | CAPA plan or effectiveness plan dated before the check | Was the criterion set in advance, or chosen after seeing the results? |
+| **Actual effectiveness results** | The check was performed as planned and the result was compared with the criterion | Effectiveness check record, data, inspection or monitoring results | What did the check actually show against the criterion? |
+| **Recurrence / repeat-issue check** | Recurrence (same or similar issues, other products, suppliers or sites) was looked for | Trend data, complaint/NC search, supplier performance data | Has anyone checked whether it happened again, including in similar places? |
+| **Verification and closure decision** | Closure was approved by the right person on the basis of the effectiveness evidence | Closure approval, signature, date, rationale | Was the CAPA closed on evidence of effectiveness, or on implementation alone? |
+
+Depth by duration:
+- **About 10 minutes:** follow one CAPA. Prioritise root-cause evidence, the predetermined criteria, the actual results and the closure basis. Record other elements as not examined.
+- **About 20 minutes:** follow one CAPA through every element, sampling at least one record for the criteria and results.
+- **About 40 minutes:** follow one CAPA in depth, then sample a second (e.g. a different source or an open/overdue CAPA), and test the interfaces the trail reaches, such as supplier controls, risk management or management review, after confirming scope.
+
+Compare like with like: if the predetermined criterion was one thing (e.g. "follow-up supplier audits") and the result offered is another (e.g. faster complaint information), ask how the result relates to the criterion and what the criterion itself showed.
+
+Common weak points in the effectiveness trail (areas to explore, not findings): criteria written after the results; a result offered that does not answer the predetermined criterion; effectiveness equated with implementation; a period too short or sample too small to show anything, without rationale; recurrence checked only for the exact same part or supplier; closure signed before the effectiveness result was recorded.
+
+### Supplier-related CAPAs
+
+When the cause or action sits with a supplier, the trail usually runs through supplier controls. Within the CAPA scope, ask about the supplier's investigation and corrective action evidence, how the organisation verified it (e.g. supplier audit, records review, incoming inspection), the supplier audit result where one was used as evidence, and the effect on supplier evaluation. A supplier's statement that action was taken is a claim; the organisation's own verification is the evidence. If the conversation moves into supplier qualification in general, ask whether to extend the scope.
+
+---
+
 ## Lifecycle stages and what to explore
 
 These stages are typical, not mandatory. Organisations may combine, rename or sequence them differently; assess what they actually do against what applies to them.

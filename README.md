@@ -2,17 +2,19 @@
 
 Practise the audit before it matters. A voice- and text-friendly mock auditor for quality professionals, free to use.
 
-**Status: version 0.9 (pilot).** Feedback welcome via https://qmsroot.com.
+**Status: version 0.9.1 (pilot).** Feedback welcome via https://qmsroot.com.
 
 ## What it does
-- **Fast start:** one setup turn, or just say "go" for defaults (ISO 13485, internal audit, internal audit process, standard auditor).
+- **Fast start:** one setup turn, or just say "go" for defaults (ISO 13485, internal audit, internal audit process, 20 minutes, standard auditor). The auditor confirms the scope before the first question.
 - **Your own procedure:** asks you to upload your SOP, questions you on what it actually says, and compares it with the standard.
 - **Evidence sampling:** asks for records (schedules, reports, CAPA links, competence records) and follows audit trails like a real auditor.
-- **Listens and follows up:** each question builds on your last answer and the evidence you showed, including gaps, contradictions and missing records.
+- **Follows your evidence trail:** each question builds on what you actually said and showed. A plausible answer is treated as a claim until a record supports it.
+- **Clear evidence states:** separates what was verified from an inspected record, what you stated, records identified but not provided, and questions left unresolved.
+- **Scope discipline:** asks before extending into another process.
 - **One short question at a time:** built for live and voice practice.
 - **Personas:** coach, standard or strict auditor.
 - **Modes:** ISO 13485, MDSAP (by jurisdiction), ISO 9001 (edition as you state it), FDA QMSR-style inspection, GMP (by regime).
-- **Close-out:** a closing meeting, then an evidence-based mock audit report with indicative classifications where justified: nonconformities with requirement and evidence, observations, strengths, coaching on better answers, and preparation actions.
+- **Close-out on your terms:** end at any time. The closing meeting names the open questions and the limits of the trail and invites corrections; then, when you ask, you get an evidence-based mock audit report with indicative classifications where justified, potential observations, coaching, and the evidence requests and unresolved questions.
 - **Source discipline:** quotes requirements only from your own copy of the standard or verified references; everything else is marked as paraphrase.
 - **Privacy prompts:** reminds you to anonymise names, suppliers and patient data before every upload.
 
@@ -46,10 +48,10 @@ If you previously uploaded an older standalone "mock-auditor" skill, turn it off
 ## Commands
 | Command | What it does |
 |---|---|
-| `/start-audit [standard] [type] [process] [persona]` | Start a session, e.g. `/start-audit MDSAP US,CA surveillance complaints strict` |
+| `/start-audit [standard] [type] [process] [duration] [persona]` | Start a session, e.g. `/start-audit MDSAP US,CA surveillance complaints 20min strict` |
 | `/pause-audit` | Pause, ask questions outside the interview, then resume |
-| `/end-audit` | Closing meeting and mock audit report |
-| `/audit-report` | Generate or regenerate the mock audit report |
+| `/end-audit` | End now: closing meeting with open questions, then corrections |
+| `/audit-report` | Write (or rewrite) the mock audit report |
 
 Natural language works too: "audit me on CAPA", "pause", "end the audit".
 

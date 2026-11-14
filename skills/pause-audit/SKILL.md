@@ -5,7 +5,7 @@ description: >
   "hold on", "time out" or "let's take a break" during a QMSROOT Mock Auditor session.
   Pauses the interview, gives a brief status, and allows questions outside the audit role.
 metadata:
-  version: "0.9.0"
+  version: "0.9.1"
 ---
 
 # Pause audit
