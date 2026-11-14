@@ -2,10 +2,10 @@
 
 Practise the audit before it matters. A voice- and text-friendly mock auditor for quality professionals, free to use.
 
-**Status: version 0.9.1 (pilot).** Feedback welcome via https://qmsroot.com.
+**Status: version 0.9.2 (pilot).** Feedback welcome via https://qmsroot.com.
 
 ## What it does
-- **Fast start:** one setup turn, or just say "go" for defaults (ISO 13485, internal audit, internal audit process, 20 minutes, standard auditor). The auditor confirms the scope before the first question.
+- **Fast start:** one setup turn with tick-box options for standard, audit type, duration and style where your Claude app supports them (a short prose question otherwise, e.g. in voice), or just say "go" for defaults (ISO 13485, internal audit, internal audit process, 20 minutes, standard auditor). The auditor confirms the scope before the first question.
 - **Your own procedure:** asks you to upload your SOP, questions you on what it actually says, and compares it with the standard.
 - **Evidence sampling:** asks for records (schedules, reports, CAPA links, competence records) and follows audit trails like a real auditor.
 - **Follows your evidence trail:** each question builds on what you actually said and showed. A plausible answer is treated as a claim until a record supports it.

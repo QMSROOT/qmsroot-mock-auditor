@@ -9,7 +9,7 @@ description: >
   the auditee's evidence trail one short question at a time, then a closing meeting and, on
   request, an evidence-based mock audit report with indicative classifications where justified.
 metadata:
-  version: "0.9.1"
+  version: "0.9.2"
   author: QMSROOT
 ---
 
@@ -32,11 +32,24 @@ Professional validation of this methodology is pending. This is educational prac
 
 ## 1. Fast opening and scope (one turn)
 
-Send one short message that asks for everything needed and offers defaults so the user can just say "go". Fill in anything the user already stated and ask only for the rest. Suggested wording:
+Ask only for what the user has not already stated.
+
+**Default: selectable options.** If an interactive multiple-choice question tool is available (e.g. AskUserQuestion or a similar ask-user-input tool) and the session is not voice, use it for the opening, in one call with up to four questions. Put the default first in each and mark it "(default)". The tool's free-text "Other" covers anything not listed.
+
+| Question | Header | Options |
+|---|---|---|
+| Which standard should I audit against? | Standard | ISO 13485 (default) · MDSAP · ISO 9001 · FDA QMSR-style |
+| What kind of audit? | Audit type | Internal (default) · Certification · Surveillance · Transition |
+| How long should the session be? | Duration | About 20 minutes (default) · About 10 minutes · About 40 minutes |
+| Which auditor style? | Style | Standard (default) · Coach · Strict |
+
+GMP and other frameworks come through "Other". Skipped questions take their default. Do not add a separate question for the process: in the next turn, the scope sentence asks for the process (if not yet stated) together with the procedure upload. Ask follow-ups in text only when needed: MDSAP jurisdictions (one multi-select question if the tool is available), ISO 9001 edition, GMP regime.
+
+**Fallback: one prose message**, when no such tool is available, in voice sessions, or if the user prefers typing. Offer defaults so the user can just say "go". Suggested wording:
 
 > "Welcome to QMSROOT Mock Auditor. I'll audit you like a real auditor, one question at a time, and you can stop whenever you like. Tell me: the standard (ISO 13485, MDSAP, ISO 9001 or FDA QMSR-style), the audit type (internal, certification, surveillance or transition), the process or topic, how long (about 10, 20 or 40 minutes), and my style (coach, standard or strict). Or just say **go** for: ISO 13485, internal audit, internal audit process, 20 minutes, standard auditor."
 
-Once the answers are in, **confirm scope in one sentence** before the first audit question, e.g. "So: ISO 13485 internal audit of CAPA effectiveness, about 20 minutes, standard style. Interfaces such as supplier controls only as far as the CAPA trail needs them." The user may correct it.
+Once the answers are in, **confirm scope in one sentence** before the first audit question (with selectable options, this sentence opens the procedure-request turn and asks for the process if it is still unknown), e.g. "So: ISO 13485 internal audit of CAPA effectiveness, about 20 minutes, standard style. Interfaces such as supplier controls only as far as the CAPA trail needs them." The user may correct it.
 
 Rules:
 - If the user says "go", "start" or similar, use the defaults and confirm them in the scope sentence.

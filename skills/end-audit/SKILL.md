@@ -6,7 +6,7 @@ description: >
   Mock Auditor session. Holds a short closing meeting that states open questions and
   limitations, invites corrections, and offers the report.
 metadata:
-  version: "0.9.1"
+  version: "0.9.2"
 ---
 
 # End audit
