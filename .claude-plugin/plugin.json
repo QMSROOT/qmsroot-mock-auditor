@@ -1,7 +1,7 @@
 {
   "name": "qmsroot-mock-auditor",
   "displayName": "QMSROOT Mock Auditor",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "Practise audits by voice or text: a realistic, SOP-based mock audit for ISO 13485, MDSAP, ISO 9001 and FDA QMSR-style inspections, with evidence sampling, auditor personas and an evidence-based mock audit report with indicative classifications where justified.",
   "author": {
     "name": "QMSROOT"
