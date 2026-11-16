@@ -7,7 +7,7 @@
     "name": "QMSROOT"
   },
   "homepage": "https://qmsroot.com",
-  "repository": "https://github.com/malikaamirde-lang/qmsroot-mock-auditor",
+  "repository": "https://github.com/QMSROOT/qmsroot-mock-auditor",
   "license": "SEE LICENSE IN LICENSE.md",
   "keywords": ["audit", "mock audit", "ISO 13485", "MDSAP", "ISO 9001", "QMSR", "quality management", "medical devices", "GMP"]
 }
