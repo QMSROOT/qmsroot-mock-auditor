@@ -6,7 +6,7 @@ description: >
   practice session. Optional arguments: standard, audit type, process, duration and persona,
   e.g. "/start-audit ISO 13485 internal CAPA 20min strict".
 metadata:
-  version: "0.9.2"
+  version: "0.9.3"
 ---
 
 # Start audit

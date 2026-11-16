@@ -2,7 +2,7 @@
 
 Practise the audit before it matters. A voice- and text-friendly mock auditor for quality professionals, free to use.
 
-**Status: version 0.9.2 (pilot).** Feedback welcome via https://qmsroot.com.
+**Status: version 0.9.3 (pilot).** Feedback welcome via https://qmsroot.com.
 
 ## What it does
 - **Fast start:** one setup turn with tick-box options for standard, audit type, duration and style where your Claude app supports them (a short prose question otherwise, e.g. in voice), or just say "go" for defaults (ISO 13485, internal audit, internal audit process, 20 minutes, standard auditor). The auditor confirms the scope before the first question.
@@ -28,14 +28,14 @@ Practise the audit before it matters. A voice- and text-friendly mock auditor fo
 Add the QMSROOT marketplace and install the plugin from your terminal:
 
 ```bash
-claude plugin marketplace add malikaamirde-lang/qmsroot-mock-auditor
+claude plugin marketplace add QMSROOT/qmsroot-mock-auditor
 claude plugin install qmsroot-mock-auditor@qmsroot
 ```
 
 Or in one step inside a Claude Code session (Claude Code v2.1.275 or later):
 
 ```
-/plugin install qmsroot-mock-auditor --marketplace malikaamirde-lang/qmsroot-mock-auditor
+/plugin install qmsroot-mock-auditor --marketplace QMSROOT/qmsroot-mock-auditor
 ```
 
 To update later: `claude plugin update qmsroot-mock-auditor@qmsroot`.

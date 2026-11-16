@@ -6,7 +6,7 @@ description: >
   for a QMSROOT Mock Auditor session. Creates the evidence-based mock audit report, with indicative
   classifications where justified, as a document.
 metadata:
-  version: "0.9.2"
+  version: "0.9.3"
 ---
 
 # Audit report

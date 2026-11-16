@@ -9,7 +9,7 @@ description: >
   the auditee's evidence trail one short question at a time, then a closing meeting and, on
   request, an evidence-based mock audit report with indicative classifications where justified.
 metadata:
-  version: "0.9.2"
+  version: "0.9.3"
   author: QMSROOT
 ---
 
