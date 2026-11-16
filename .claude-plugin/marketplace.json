@@ -9,6 +9,16 @@
       "name": "qmsroot-mock-auditor",
       "source": "./",
       "description": "Practise audits by voice or text with an evidence-based mock audit report."
+    },
+    {
+      "name": "qmsroot-audit-checklist",
+      "source": { "source": "github", "repo": "QMSROOT/qmsroot-audit-checklist" },
+      "description": "Turn your own procedure into a tailored, risk-based audit checklist."
+    },
+    {
+      "name": "rootai-quality-regulatory",
+      "source": { "source": "github", "repo": "QMSROOT/qmsroot-plugins" },
+      "description": "A QA/RA consultant: CAPA, audit findings, complaints, PMS, supplier quality, risk and sourced regulatory answers."
     }
   ]
 }
